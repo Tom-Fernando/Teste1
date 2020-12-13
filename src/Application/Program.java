@@ -29,11 +29,12 @@ public class Program {
 			int room = sc.nextInt();
 			vect[i] = new Product(name, email, room);
 		}
-		
+
 		for (int i = 0; i < vect.length; i++) {
-			if (vect[i] != null){
+			if (vect[i] != null) {
 				System.out.println("O quarto alugados foram:");
-					System.out.println(vect[i].getRoom() + ": " + vect[i].getName() + ", " + vect[i].getEmail());
+				System.out.println(vect[i].getRoom() + ": " + vect[i].getName() + ", " + vect[i].getEmail());
+				System.out.println("Encerrado");
 			}
 			sc.close();
 		}
